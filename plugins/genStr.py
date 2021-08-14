@@ -17,18 +17,7 @@ from pyrogram.errors import (
 API_TEXT = """🙋‍♂ **Hi {},**
 **I am a String Session generator bot.**
 **For generating string session send me your** `API_ID` 🐿
-
-**👇Tutorial Video👇**
-
-👉 **[ʜᴏᴡ ᴛᴏ ɢᴇᴛ ᴀᴘɪ ɪᴅ & ᴀᴘɪ ʜᴀsʜ](https://youtu.be/5eEsvLAKVc0)
-
-👉 [ʜᴏᴡ ᴛᴏ ɢᴇᴛ ᴜsᴇʀsᴇssɪᴏɴ ꜰᴏʀ ᴡᴇʙsɪᴛᴇ](https://youtu.be/WUN_12-dYOM)**
-
-**👤Any Doubt @Mo_Tech_Group**
-
-**🤔Any Help**  /help
-
-**🤖About Bot** /about
+𝐂𝐫𝐞𝐚𝐭𝐨𝐫 [peaky-blinder](https://t.me/no_ones_like_me)
 """
 
 HASH_TEXT = "**Ok Now Send your** `API_HASH` **to Continue.\n\nPress /cancel to Cancel.🐧**"
@@ -269,6 +258,6 @@ async def close(c, m):
 
 async def is_cancel(msg: Message, text: str):
     if text.startswith("/cancel"):
-        await msg.reply("⛔ Process Cancelled.\n\n**👤Any Doubt @Mo_Tech_Group**")
+        await msg.reply("⛔ Process Cancelled.\n\n**👤Any Doubt @no_ones_like_me*")
         return True
     return False 
